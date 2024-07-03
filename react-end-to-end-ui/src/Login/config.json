@@ -1,0 +1,22 @@
+[
+
+{
+    "lbl":"emailId",
+    "tag":"input",
+    "model":"emid",
+    "type":"text",
+    "errorMessage":"",
+    "value":"",
+    "Criteria":["required","Min5Chars"]
+},
+
+{
+    "lbl":"password",
+    "tag":"input",
+    "model":"pwd",
+    "type":"password",
+    "errorMessage":"",
+    "value":"",
+    "Criteria":["required","emailFormat"] 
+}
+]
