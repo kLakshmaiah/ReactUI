@@ -1,13 +1,13 @@
 [
 
 {
-    "lbl":"emailId",
+    "lbl":"email-Id",
     "tag":"input",
     "model":"emid",
     "type":"text",
     "errorMessage":"",
     "value":"",
-    "Criteria":["required","Min5Chars"]
+    "Criteria":["required","emailFormat"]
 },
 
 {
@@ -17,6 +17,6 @@
     "type":"password",
     "errorMessage":"",
     "value":"",
-    "Criteria":["required","emailFormat"] 
+    "Criteria":["required","Min5Chars"] 
 }
 ]

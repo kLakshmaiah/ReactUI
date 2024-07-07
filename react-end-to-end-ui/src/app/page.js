@@ -1,3 +1,2 @@
-export default function Home() {
-  return <div className="text-center">Login</div>
-}
+import Login from "@/Login"
+export default Login;
